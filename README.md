@@ -16,7 +16,8 @@ Here lies a Scons build script to manage and test competitive programming (probl
         scons -s               # For all files
         scons -s adhoc/barcode # For one problem
 
-5. Scons will only diff with expected output if it is not empty.
-6. To cleanup the `*.o` and executable files.
+5. To cleanup the `*.o` and executable files.
 
         scons -c
+
+6. Configuration is done via `config.py`
