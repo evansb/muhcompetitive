@@ -1,0 +1,4 @@
+_bin
+*.pyc
+*.o
+.sconsign.dblite
